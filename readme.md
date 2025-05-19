@@ -1,6 +1,7 @@
 # Git exercise project
  
-<!-- $ git init
+```bash
+$ git init
 Reinitialized existing Git repository in E:/Code/Bundle 1/.git/
 
  
@@ -53,7 +54,10 @@ To https://github.com/Anifa-hub/Gym-Git-Exercise-Solutions.git
    <!-- git switch dev --> 
     
 <!-- $ git branch test
-   $ git branch -d test -->
+   $ git branch -d test
+   ```
+
+    ```bash
     ir myproject
     2  cd myproject
     3  mdkr project
@@ -379,3 +383,4 @@ To https://github.com/Anifa-hub/Gym-Git-Exercise-Solutions.git
   323  git push --set-upstream origin ft/home-page-redesign
   324  git checkout main
   326  history
+  ```
