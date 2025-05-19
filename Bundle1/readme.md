@@ -49,8 +49,3 @@ Writing objects: 100% (2/2), 271 bytes | 67.00 KiB/s, done.
 Total 2 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 To https://github.com/Anifa-hub/Gym-Git-Exercise-Solutions.git
    1e1e671..0f5929f  main -> main -->
-   <!-- git branch dev
-   <!-- git switch dev --> 
-    
-<!-- $ git branch test
-   $ git branch -d test -->
