@@ -186,5 +186,73 @@ To https://github.com/Anifa-hub/Git-copy.git
  * [new branch]      main -> main
 
 User@Anifa-hub MINGW64 /e/Code/Git exercises (main)
-$ek
+
+
+Bundle 4 exercise two
+User@Anifa-hub MINGW64 /e/Code/Git exercises (main)
+$ git branch ft/footer
+
+User@Anifa-hub MINGW64 /e/Code/Git exercises (main)
+$ git branch
+dev
+ft/bundle-2
+ft/contact-page
+ft/faq-page
+ft/footer
+ft/home-page-redesign
+ft/service-redesign
+ft/team-page
+
+- main
+
+User@Anifa-hub MINGW64 /e/Code/Git exercises (main)
+$ git checkout ft/footer
+Switched to branch 'ft/footer'
+
+User@Anifa-hub MINGW64 /e/Code/Git exercises (ft/footer)
+$ git add .
+
+User@Anifa-hub MINGW64 /e/Code/Git exercises (ft/footer)
+$ git commit -m 'footer created'
+[ft/footer 3cfc295] footer created
+1 file changed, 1 insertion(+)
+
+User@Anifa-hub MINGW64 /e/Code/Git exercises (ft/footer)
+$ git add .
+
+User@Anifa-hub MINGW64 /e/Code/Git exercises (ft/footer)
+$ git commit -m' new changes'
+[ft/footer d67bf3e]  new changes
+1 file changed, 1 insertion(+), 1 deletion(-)
+
+User@Anifa-hub MINGW64 /e/Code/Git exercises (ft/footer)
+$ git push
+fatal: The current branch ft/footer has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+```
+git push --set-upstream origin ft/footer
+
+```
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+
+User@Anifa-hub MINGW64 /e/Code/Git exercises (ft/footer)
+$  git push --set-upstream origin ft/footer
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (6/6), done.
+Writing objects: 100% (6/6), 591 bytes | 197.00 KiB/s, done.
+Total 6 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (4/4), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'ft/footer' on GitHub by visiting:
+remote:      https://github.com/Anifa-hub/Gym-Git-Exercise-Solutions/pull/new/ft/footer
+remote:
+To https://github.com/Anifa-hub/Gym-Git-Exercise-Solutions.git
+
+- [new branch] ft/footer -> ft/footer
+branch 'ft/footer' set up to track 'origin/ft/footer'.
    ```
