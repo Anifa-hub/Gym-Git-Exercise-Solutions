@@ -155,6 +155,35 @@ To https://github.com/Anifa-hub/Gym-Git-Exercise-Solutions.git
   322  git push
   323  git push --set-upstream origin ft/home-page-redesign
   324  git checkout main
-  326  history 
- 
+  326  history
+ Bundle four exercise one
+  User@Anifa-hub MINGW64 /e/Code/Git exercises (main)
+$ git remote add git-copy https://github.com/Anifa-hub/Git-copy.git
+
+User@Anifa-hub MINGW64 /e/Code/Git exercises (main)
+$ git add .
+
+User@Anifa-hub MINGW64 /e/Code/Git exercises (main)
+$ git commit -m "bundle 4"
+[main 57497d2] bundle 4
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+
+
+User@Anifa-hub MINGW64 /e/Code/Git exercises (main)
+$ git push git-copy
+Enumerating objects: 75, done.
+Counting objects: 100% (75/75), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (69/69), done.
+Writing objects: 100% (75/75), 10.56 KiB | 240.00 KiB/s, done.
+Total 75 (delta 32), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (32/32), done.
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/Anifa-hub/git-copy.git
+To https://github.com/Anifa-hub/Git-copy.git
+ * [new branch]      main -> main
+
+User@Anifa-hub MINGW64 /e/Code/Git exercises (main)
+$
    ```
